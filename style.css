@@ -64,7 +64,7 @@ overflow-x: hidden;
     font-weight: bolder;
     letter-spacing: 4px;
     word-spacing: -8px;
-    color: #394fca;
+    color: #8a0086;
     text-shadow:
       -1px -1px 0 #db693f,
       -2px -2px 0 #db693f,
@@ -261,6 +261,7 @@ width: 100%;
  display: flex;
  justify-content: center;
  flex-direction: column;
+ max-width: 980px
 
 }
 .info.article-box a{
@@ -565,7 +566,17 @@ flex-direction: column;
     min-height: fit-content;
   }
 
-
+  #explore {
+    background-color: #9f5f23;
+    color: white;
+    
+    }
+  
+  
+  #explore .headline{
+    color: white;
+    text-shadow: 6px -2px rgba(193, 110, 37, 0.6);
+  }
 
 
 
