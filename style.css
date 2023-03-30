@@ -122,7 +122,7 @@ width: 100%;
  display: flex;
  justify-content: center;
  flex-direction: column;
- max-width: 980px
+ width: 100vw;
 
 }
 .info.article-box a{
@@ -260,6 +260,19 @@ background-color: black;
   100% { left: 5%; }
 }
 
+#introduction {
+  background-color: #e5eaf5;
+  color: white;
+  
+  }
+#map {
+  background-color: #8458B3;
+}
+  #explore {
+  background-color: #4d108d;
+  color: white;
+  
+  }
 @keyframes slide {
   100% { left: 5%; }
 }
@@ -344,19 +357,7 @@ flex-direction: column;
     min-height: fit-content;
   }
   
-  #introduction {
-    background-color: #e5eaf5;
-    color: white;
-    
-    }
-  #map {
-    background-color: #8458B3;
-  }
-    #explore {
-    background-color: #4d108d;
-    color: white;
-    
-    }
+
   
   
   #explore .headline{
