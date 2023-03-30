@@ -36,15 +36,8 @@ overflow-x: hidden;
 .text p a{
   color: black;
 }
-#Tierra-y-memoria b{
-  text-shadow:1px 1px 10px #ffdd87;
-  color: #ffdd87;
-}
 
-#Tierra-y-memoria a{
-  color: #ffdd87;
 
-}
 
 
 .projectTitle{
@@ -77,54 +70,8 @@ overflow-x: hidden;
 
 }
 
-#gustavo-pic{
-  width: 100%;
-  text-align: center;
-}
-.yellow{
-  color: yellow;
-}
-.red{
-  color: red;
-}
-#cover {
-  background-color: white;
-  min-height: none;
-}
-
-#podcast .podcast-container{
-  margin: auto;
-padding-top: 40px;
-padding-bottom: 40px;
-  width: 50%;
-}
-
-#podcast{
-
-  min-height: 70vh;
-
-  background-color: #3749CD;
-/* background-image: linear-gradient(326deg, #2A0001 0%, #800000 74%); */
-
-}
-
-
-
-#podcast .text {
-
- margin: auto;
- padding-top: 40px;
-}
-
-
-
-#cover img{
-  width: 100%;
-  vertical-align: bottom !important;
-}
-
 #projectTitleDiv{
-  background-color: #EEEEEF;
+  background-color: #a0d2eb;
   /* background: radial-gradient(600px at 50% 50% , #fff 20%, #ddadcf 150%); */
 }
 
@@ -133,92 +80,6 @@ padding-bottom: 40px;
   width: 70%;
   margin: auto;
 
-}
-
-
-
-
-.basicdommedia{
-  width: 100%;
-}
-
-#puzzle-btn{
-  background-color: #db693f;
-  color: black;
-  padding: 10px;
-  font-size: 40px;
-  border-radius: 10px;
-  transition: ease 0.3s;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#puzzle-btn:hover{
-  text-decoration: none;
-  cursor: pointer;
-  background-color: #ddadcf;
-  transition: ease 0.3s;
-}
-
-#history-of-wintersession, #photostory{
-  background-color: #495AA7;
-  /* background-image: linear-gradient(180deg, #78ddfa 0%, 	#93e3fb 74%); */
-}
-
-#history-of-wintersession .text p a, #photostory .text p a{
-  color: #ddadcf;
-  /* background-image: linear-gradient(180deg, #78ddfa 0%, 	#93e3fb 74%); */
-}
-
-#opinion-winter2, #puzzle{
-  background-color: #394fca;
-}
-
-#offerings-by-numbers{
-  background-color:  #DD6737;
-}
-
-#dallas-mayor, #sports-winter, #podcast{
-  background-color: #EEEEEF;
-}
-
-#dallas-mayor .text, #podcast .text, #sports-winter .text{
-  color: black;
-}
-
-#dallas-mayor .text p a, #podcast .text p a, #sports-winter .text p a{
-  color:#db693f;
-}
-
-#prospect-11{
-  background-color: #db693f;
-}
-
-#opinion-winter{
-  background-color: #db693f;
-}
-
-#wintersession-nums, #humor-winter{
-  background-color:#DEACCF;
-}
-
-#wintersession-nums .text, #humor-winter .text{
-  color: black;
-}
-
-#wintersession-nums .text p a, #humor-winter .text p a{
-  color:#3749CD;
-}
-
-#prospect-11 .text p u{
-  text-decoration: none;
-  font-weight: bolder;
-  font-size: 2.4em;
-}
-
-#prospect-11 .text p em{
-  position: relative;
-  top: -10px;
 }
 
 
@@ -288,15 +149,6 @@ width: 100%;
   opacity: 30%;
 
 }
-#humor{
-  background-color: #DD6737;
-  color: #002535;
-}
-
-#humor a{
-  color: #8B4000;
-}
-
 .intro-box{
   text-align: center;
   margin: auto;
@@ -307,38 +159,6 @@ width: 100%;
   justify-content: center;
 }
 
-.project-intro{
-  /* display: flex; */
-
-}
-
-.marie-sig{
-  text-align: right;
-  line-height: 1px;
-}
-
-#explore {
-  background-color: #014421;
-  /* background-image: linear-gradient(180deg, #014421 0%, #6A2715 74%); */
-  color: white;
-}
-
-
-#explore .headline{
-  color: white;
-  text-shadow: 6px -2px rgba(193, 110, 37, 0.6);
-}
-#podcast a:hover{
-  text-decoration: none;
-
-}
-
-#explore a{
-  color: white;
-}
-#prospect-11 a{
-  color: maroon;
-}
 .article-box-spacer{
   width: 50px;
 }
@@ -346,21 +166,7 @@ width: 100%;
   /* line-height: 15px; */
   padding-bottom: 10px;
 }
-.interview-box{
-  display: flex;
-}
 
-.interview-box .img-container{
-  width: 40%;
-}
-
-.interview-box .interview-text{
-  width: 60%;
-}
-
-.interview-box img{
-  width: 100%;
-}
 .info h1{
 padding-bottom: 30px;
 }
@@ -415,35 +221,7 @@ line-height: 20px;
 }
 
 
-.interview-title{
-  font-family: 'franklin-gothic-urw' !important;
-}
 
-.interview-response{
-
-  color: maroon;
-
-}
-
-#keynote-speech a{
-  color: maroon;
-  font-family: 'franklin-gothic-urw' !important
-}
-#keynote-speech p{
-  font-family: 'franklin-gothic-urw' !important
-}
-
-#keynote-speech strong{
-  font-family: 'franklin-gothic-urw' !important
-}
-
-#keynote-speech {
-  background-color: #DEACCF;
-  color: #654321;
-}
-.vertical-photo{
-  width: 50%
-}
 .section {
 min-height: 100vh;
 background-color: black;
@@ -565,9 +343,17 @@ flex-direction: column;
   .section{
     min-height: fit-content;
   }
-
-  #explore {
-    background-color: #9f5f23;
+  
+  #introduction {
+    background-color: #e5eaf5;
+    color: white;
+    
+    }
+  #map {
+    background-color: #8458B3;
+  }
+    #explore {
+    background-color: #4d108d;
     color: white;
     
     }
