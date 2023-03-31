@@ -266,6 +266,25 @@ body {
   animation-delay: 1.3s;
 }
 
+
+span {
+  font-size: 120px;
+  text-transform: uppercase;
+  font-family: 'Gambetta', serif;
+  letter-spacing: -3px;
+  transition: 700ms ease;
+  font-variation-settings: "wght" 311;
+  margin-bottom: 0.8rem;
+  color: PaleGoldenRod;
+  outline: none;
+  text-align: center;
+}
+
+span:hover {
+  font-variation-settings: "wght" 582; 
+  letter-spacing: 1px;
+}
+
 @-webkit-keyframes slide {
   100% {
     left: 5%;
@@ -283,7 +302,7 @@ body {
 }
 
 #explore {
-  background-color: #4d108d;
+  background-color: #2c39b4;
   color: white;
 
 }
@@ -386,7 +405,6 @@ body {
 
   #explore .headline {
     color: white;
-    text-shadow: 6px -2px rgba(193, 110, 37, 0.6);
   }
 }
 
