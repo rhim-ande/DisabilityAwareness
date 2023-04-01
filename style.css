@@ -61,17 +61,17 @@ body {
   font-weight: bolder;
   letter-spacing: 4px;
   word-spacing: -8px;
-  color: #33016b;
+  color: #FBC5C5;
   
   text-shadow:
     -1px -1px 0 #2300d0,
   
-    -4px -4px 0 white,
-    -5px -5px 0 white
+    -2px -2px 0 #F7E2D6,
+    -3px -3px 0 white
 }
 
 #projectTitleDiv {
-  background-color: #EBC7E6;
+  background-color: #645CBB;
   /* background: radial-gradient(600px at 50% 50% , #fff 20%, #ddadcf 150%); */
 }
 
@@ -102,7 +102,7 @@ body {
 
 
 .area {
-  background: #EBC7E6;
+  background: #645CBB;
   background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
   width: 100%;
   height: 100vh;
@@ -449,11 +449,11 @@ span:hover {
 }
 
 #map {
-  background-color: #645CBB;
+  background-color: #377D71;
 }
 
 #explore {
-  background-color: #BFACE2;
+  background-color: #ADDDD0;
   color: white;
  
 
@@ -483,10 +483,10 @@ span:hover {
 
   }
   .area {
-    background: #EBC7E6;
+    background: #645CBB;
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
     width: 100%;
-    height: 40vh;
+    height: 30vh;
   
   
   }
