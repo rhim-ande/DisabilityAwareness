@@ -105,7 +105,7 @@ body {
   background: #645CBB;
   background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
   width: 100%;
-  height: 100%;
+  height: 95vh;
 
 
 }
@@ -420,8 +420,7 @@ body {
   animation-delay: 1.3s;
 }
 
-
-span {
+h2 {
   font-size: 120px;
   text-transform: uppercase;
   font-family: 'Gambetta', serif;
@@ -434,10 +433,11 @@ span {
   text-align: center;
 }
 
-span:hover {
+h2:hover {
   font-variation-settings: "wght" 582;
   letter-spacing: 1px;
 }
+
 
 @-webkit-keyframes slide {
   100% {
