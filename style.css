@@ -54,26 +54,24 @@ body {
   left: 20px; */
   /* font-family: 'franklin-gothic-urw'; */
   /* margin-top: -70px; */
-  font-family: 'Noto Serif', serif;
-  font-size: 11vw;
+  font-family: 'Merriweather', serif;
+    font-size: 8vw;
   /* transform: skewY(-10deg); */
   line-height: 12vw;
   font-weight: bolder;
   letter-spacing: 4px;
   word-spacing: -8px;
   color: #33016b;
+  
   text-shadow:
     -1px -1px 0 #2300d0,
   
     -4px -4px 0 white,
-    -5px -5px 0 white,
-    -6px -6px 0 white,
-    -7px -7px 0 white,
-    -8px -8px 0 white
+    -5px -5px 0 white
 }
 
 #projectTitleDiv {
-  background-color: #E27D60;
+  background-color: #EBC7E6;
   /* background: radial-gradient(600px at 50% 50% , #fff 20%, #ddadcf 150%); */
 }
 
@@ -104,7 +102,7 @@ body {
 
 
 .area {
-  background: #E27D60;
+  background: #EBC7E6;
   background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
   width: 100%;
   height: 100vh;
@@ -234,10 +232,10 @@ body {
 
 }
 
-
 .info a {
   font-weight: bold;
 }
+
 .info a:hover {
   text-decoration: underline;
 }
@@ -399,7 +397,6 @@ body {
   -webkit-animation-delay: 0.5s;
   animation: slide 0.5s forwards;
   animation-delay: 0.5s;
-  font-family: 'Noto Serif', serif;
 }
 
 #slide2 {
@@ -409,7 +406,6 @@ body {
   -webkit-animation-delay: 0.5s;
   animation: slide 0.5s forwards;
   animation-delay: 0.9s;
-  font-family: 'Noto Serif', serif;
 }
 
 #slide3 {
@@ -419,7 +415,6 @@ body {
   -webkit-animation-delay: 0.5s;
   animation: slide 0.5s forwards;
   animation-delay: 1.3s;
-  font-family: 'Noto Serif', serif;
 }
 
 
@@ -454,11 +449,11 @@ span:hover {
 }
 
 #map {
-  background-color: #C38D9E;
+  background-color: #645CBB;
 }
 
 #explore {
-  background-color: #41B3A3;
+  background-color: #BFACE2;
   color: white;
  
 
@@ -488,7 +483,7 @@ span:hover {
 
   }
   .area {
-    background: #E27D60;
+    background: #EBC7E6;
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
     width: 100%;
     height: 40vh;
@@ -673,9 +668,7 @@ span:hover {
 
 /* Cool font from Google Fonts! */
 @import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
