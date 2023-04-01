@@ -454,7 +454,12 @@ span:hover {
 #map {
   background-color: #377D71;
 }
-
+.map-align {
+  border: 20px solid;
+  border-color: #377D71;
+  display: flex;
+  justify-content: center;
+  }
 #explore {
   background-color: #ADDDD0;
   color: white;
