@@ -232,6 +232,9 @@ body {
 
 }
 
+.info blurb {
+  font-weight:none !important;
+}
 .info a {
   font-weight: bold;
 }
